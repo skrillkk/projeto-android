@@ -1,0 +1,107 @@
+
+
+/*#0FEDFF
+#0D0D0D
+#FFAD96*/
+body{
+    background-color: #35ff5783;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    min-width: 200px;
+    margin: auto;
+}
+header{
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ff3700 ;
+    text-align: center;
+    margin: 0px -420px 0px -430px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0FEDFF, #0ED4E6, #0CBCCC);
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.329);
+    
+    
+}
+header > p {
+    color: black;
+}
+nav{
+    text-align: left;
+    font-size: 14px;
+}
+nav > a {
+    margin-right: 7px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #ff3700;
+    font-weight: bolder;
+}
+main{
+    background-color: white;
+    padding: 10px;
+
+}
+h2{
+    background-color: rgba(211, 211, 211, 0.568);
+}
+
+    img{
+        width: 70%;
+    }
+    #bugdroid{
+        max-width: 600px;
+    }
+.alinhamentodimensional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+p {
+    text-indent: 15px;
+}
+footer{
+    background-color: white;
+    
+    padding: 10px 0px 10px 0px;
+    background-color:#0ED4E6;
+}
+h3{
+    background-color: #0ED4E6;
+    color: #ff3700;
+    text-align: left;
+    border-radius:8px 8px 0px 0px;
+    padding: 10px;
+    
+}
+.lista {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Duas colunas */
+    gap: 20px; /* Espaçamento entre as listas */
+    padding: 10px;
+    list-style-position: inside
+}
+#classcolorback{
+    background-color: #cc660669;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.329);
+}
+#video{
+    position: relative;
+    background-color:#0febff60 ;
+    margin: 15px -20px -20px 15px ;
+}
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 800px;
+}
