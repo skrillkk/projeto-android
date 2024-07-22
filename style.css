@@ -27,6 +27,9 @@ header{
 header > p {
     color: black;
 }
+header > h1 {
+    font-size: 1.3em;
+}   
 nav{
     text-align: left;
     font-size: 14px;
